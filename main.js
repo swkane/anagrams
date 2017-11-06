@@ -1,13 +1,13 @@
 // P1 / P3
 let input = document.getElementsByName('given')[0]
 let handleAnagram = () => {
-  console.log(input.value);
+  console.log("Input Word: ",input.value);
   let givenWord = input.value;
   let alphabetizedWord = alphabetize(givenWord);
   let anagrams = words.filter((word) => {
     return alphabetize(word) === alphabetizedWord;
   })
-  console.log(anagrams);
+  console.log("Anagrams: ", anagrams);
   return anagrams;
 }
 
