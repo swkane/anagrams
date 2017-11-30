@@ -59,6 +59,7 @@ let handleAnagramPhrase2 = () => {
       filteredKeys.push(keys[i]);
     }
 }
+
   console.log("FilteredKeys: ", filteredKeys);
   let twoWordAnagrams = [];
   for (let i = 0; i < filteredKeys.length; i++) {
@@ -115,5 +116,4 @@ let handleAnagramPhrase3 = () => {
   }
   console.log("threeWordAnagrams: ", threeWordAnagrams);
   return threeWordAnagrams;
-
 }
